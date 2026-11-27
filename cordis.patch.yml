@@ -1,0 +1,7 @@
+# DSH「QQ 频道」（dsh-qqbot）
+#
+# 一行同时激活宿主半边（lib/host.js）。插件自身的配置在 ~/.dsh/qqbot.json，
+# 这里只负责把它挂进 loader；如需临时覆盖，可在这行下面加 config: 字段。
+- insert:
+    - id: qqbot
+      name: 'dsh-qqbot'
